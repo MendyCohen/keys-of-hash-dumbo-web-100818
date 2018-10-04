@@ -1,5 +1,7 @@
+require 'pry'
 class Hash
-  def keys_of(arguments)
-    # code goes here
+  def keys_of(arguments, is, *what)
+     #arguments.keys
+    binding.pry
   end
 end
